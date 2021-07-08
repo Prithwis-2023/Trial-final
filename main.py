@@ -6,7 +6,6 @@ app = Flask(__name__)
 
 
 @app.route('/')
-print("THIS IS A CALCULATOR:")
 a = int(input("ENTER THE FIRST NUMBER:"))
 b = int(input("ENTER THE SECOND NUMBER:"))
 print("OPTIONS: ADD, SUBSTRACT, MULTIPLY, DIVIDE")
